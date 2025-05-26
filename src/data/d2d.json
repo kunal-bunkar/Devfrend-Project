@@ -1,280 +1,452 @@
 {
-    "site": {
-      "id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
-      "subdomain": "d2d",
-      "name": "Demo Website",
-      "is_active": true,
-      "created_by": "c9557e00-5aec-4113-ae36-69f96b57e00f",
-      "created_at": "2025-05-19T19:06:13.627779+00:00",
-      "updated_at": "2025-05-19T19:06:13.627779+00:00"
-    },
-    "siteMeta": {
-      "id": "fbebcbed-075a-4913-b241-aed2877ee21c",
+  "site": {
+    "id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+    "subdomain": "d2d",
+    "name": "Demo Website",
+    "is_active": true,
+    "created_by": "c9557e00-5aec-4113-ae36-69f96b57e00f",
+    "created_at": "2025-05-19T19:06:13.627779+00:00",
+    "updated_at": "2025-05-19T19:06:13.627779+00:00"
+  },
+  "siteMeta": {
+    "id": "fbebcbed-075a-4913-b241-aed2877ee21c",
+    "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+    "title": "D2D Demo Website",
+    "description": "A demonstration of our modular website builder",
+    "og_image": "https://via.placeholder.com/1200x630",
+    "favicon": "https://via.placeholder.com/32x32",
+    "keywords": "demo, website, modular, builder",
+    "twitter_handle": "@demosite"
+  },
+  "config": {
+    "id": "56a779ad-a561-41e5-b988-11bdc5628491",
+    "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+    "font_body": "Inter",
+    "font_heading": "Poppins",
+    "font_body_weights": ["400", "500"],
+    "font_heading_weights": ["600", "700"],
+    "max_width": "1280px",
+    "radius_lg": "1rem",
+    "radius_md": "0.5rem",
+    "radius_sm": "0.25rem",
+    "radius_full": "9999px"
+  },
+  "theme": {
+    "id": "d5ac8346-16a4-47d8-b7f0-4e4a42be8fcc",
+    "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+    "name": "Default Theme",
+    "primary_color": "#2563eb",
+    "primary_hover": "#2563eb",
+    "secondary": "#f97316",
+    "secondary_hover": "#ea580c",
+    "accent": "#8b5cf6",
+    "accent_hover": "#7c3aed",
+    "background": "#ffffff",
+    "foreground": "#0f172a",
+    "muted": "#f1f5f9",
+    "border": "#e2e8f0",
+    "card": "#ffffff",
+    "card_foreground": "#0f172a",
+    "error": "#ef4444",
+    "success": "#22c55e",
+    "footer": "#0f172a",
+    "footer_text": "#f8fafc",
+    "overlay_dark": "rgba(0, 0, 0, 0.8)",
+    "overlay_light": "rgba(255, 255, 255, 0.8)",
+    "overlay_medium": "rgba(0, 0, 0, 0.4)"
+  },
+  "pages": {
+    "home": {
+      "id": "a6452a55-af24-40db-9490-42852c3e7b9a",
       "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
-      "title": "D2D Demo Website",
-      "description": "A demonstration of our modular website builder",
-      "og_image": "https://via.placeholder.com/1200x630",
-      "favicon": "https://via.placeholder.com/32x32",
-      "keywords": "demo, website, modular, builder",
-      "twitter_handle": "@demosite"
-    },
-    "config": {
-      "id": "56a779ad-a561-41e5-b988-11bdc5628491",
-      "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
-      "font_body": "Inter",
-      "font_heading": "Poppins",
-      "font_body_weights": [
-        "400",
-        "500"
-      ],
-      "font_heading_weights": [
-        "600",
-        "700"
-      ],
-      "max_width": "1280px",
-      "radius_lg": "1rem",
-      "radius_md": "0.5rem",
-      "radius_sm": "0.25rem",
-      "radius_full": "9999px"
-    },
-    "theme": {
-      "id": "d5ac8346-16a4-47d8-b7f0-4e4a42be8fcc",
-      "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
-      "name": "Default Theme",
-      "primary_color": "#2563eb",
-      "primary_hover": "#2563eb",
-      "secondary": "#f97316",
-      "secondary_hover": "#ea580c",
-      "accent": "#8b5cf6",
-      "accent_hover": "#7c3aed",
-      "background": "#ffffff",
-      "foreground": "#0f172a",
-      "muted": "#f1f5f9",
-      "border": "#e2e8f0",
-      "card": "#ffffff",
-      "card_foreground": "#0f172a",
-      "error": "#ef4444",
-      "success": "#22c55e",
-      "footer": "#0f172a",
-      "footer_text": "#f8fafc",
-      "overlay_dark": "rgba(0, 0, 0, 0.8)",
-      "overlay_light": "rgba(255, 255, 255, 0.8)",
-      "overlay_medium": "rgba(0, 0, 0, 0.4)"
-    },
-    "pages": {
-      "home": {
-        "id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-        "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
-        "slug": "home",
-        "title": "Home Page",
-        "sections": [
-          {
-            "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "header",
-            "variant": "1",
-            "position": 1,
-            "is_active": true,
-            "content": {
-              "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
-              "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
-            },
-            "items": []
+      "slug": "home",
+      "title": "Home Page",
+      "sections": [
+        {
+          "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "header",
+          "variant": "5",
+          "position": 1,
+          "is_active": true,
+          "content": {
+            "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
+            "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+            "title": "",
+            "subtitle": "",
+            "description": "",
+            "image_url": "https://tse1.mm.bing.net/th?id=OIP.U7DPOFSxptQeZHc8K0rorwHaE8&pid=Api&P=0&h=180",
+            "background_url": "",
+            "cta_text": "Book an Appointment",
+            "cta_link": "/book"
           },
-          {
-            "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "hero",
-            "variant": "2",
-            "position": 2,
-            "is_active": true,
-            "content": {
-              "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
-              "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-              "title": "Build Beautiful barber shop",
-              "subtitle": "Modern Web Development",
-              "description": "Our modular website builder allows you to create stunning websites with ease. No coding required.",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
+          "items": [
+            {
+              "label": "Home",
+              "link": "/"
             },
-            "items": []
+            {
+              "label": "About",
+              "link": "/about"
+            },
+            {
+              "label": "Services",
+              "link": "/services"
+            },
+            {
+              "label": "Gallery",
+              "link": "/gallery"
+            },
+            {
+              "label": "Contact",
+              "link": "/contact"
+            }
+          ]
+        },
+        {
+          "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "hero",
+          "variant": "3",
+          "position": 2,
+          "is_active": true,
+          "content": {
+            "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
+            "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+            "title": "Beauty Meets Elegance",
+            "subtitle": "Curated style for every woman",
+            "description": "Discover timeless fashion and effortless beauty, made just for you.",
+            "image_url": "",
+            "background_url": "https://wallpaperaccess.com/full/2090318.jpg",
+            "cta_text": "Book Now",
+            "cta_link": "/book"
           },
-          {
-            "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "services",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
+          "items": []
+        },
+
+        {
+          "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "services",
+          "variant": "2",
+          "position": 3,
+          "is_active": true,
+          "content": {
+            "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
+            "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+            "title": "Beauty Services",
+            "subtitle": "Elegance. Style. You.",
+            "description": "Pamper yourself with our range of luxurious salon treatments designed exclusively for women.",
+            "image_url": null,
+            "background_url": null,
+            "main_video_id": "o3qQvsK1kQQ",
+            "cta_text": "Explore Services",
+            "cta_link": "/services"
+          },
+          "items": [
+            {
+              "id": "a1",
               "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-              "title": "Our Services",
-              "subtitle": "What We Offer",
-              "description": "We provide a range of services to help your business grow online.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": "View All Services",
-              "cta_link": "/services"
+              "title": "Hair Styling",
+              "subtitle": "Trendy Cuts & Styles",
+              "description": "From classic cuts to modern looks, our stylists craft a look that's uniquely you.",
+              "icon": "scissors",
+              "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
+              "position": 0
             },
-            "items": [
-              {
-                "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "Web Development",
-                "subtitle": "Custom Solutions",
-                "description": "We build responsive, fast-loading websites that look great on any device.",
-                "icon": "code",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 0
-              },
-              {
-                "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "E-commerce",
-                "subtitle": "Online Stores",
-                "description": "Create your online store with secure payment processing and inventory management.",
-                "icon": "search",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 1
-              },
-              {
-                "id": "19d93208-162d-46b8-a57c-69294d21ab14",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "SEO Optimization",
-                "subtitle": "Improve Rankings",
-                "description": "Enhance your online presence with our search engine optimization services.",
-                "icon": "share",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 2
-              }
-            ]
-          },
-          {
-            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "about",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
-              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+            {
+              "id": "a2",
+              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+              "title": "Facials & Skin Care",
+              "subtitle": "Glow Inside Out",
+              "description": "Relax and rejuvenate with our custom facials and skin treatments for all skin types.",
+              "icon": "spa",
+              "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
+              "position": 1
             },
-            "items": []
+            {
+              "id": "a3",
+              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+              "title": "Manicure & Pedicure",
+              "subtitle": "Nails That Shine",
+              "description": "Give your hands and feet the care they deserve with our expert mani-pedi services.",
+              "icon": "hand",
+              "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
+              "position": 2
+            },
+            {
+              "id": "a4",
+              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+              "title": "Bridal Makeup",
+              "subtitle": "Your Perfect Day",
+              "description": "Get a flawless bridal look that enhances your natural beauty for the big day.",
+              "icon": "star",
+              "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "about",
+          "variant": "2",
+          "position": 3,
+          "is_active": true,
+          "content": {
+            "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
+            "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+            "title": "Where Beauty Meets Confidence",
+            "subtitle": "Redefining Glamour, One Transformation at a Time",
+            "description": "At PMC, we believe every individual deserves to feel confident, radiant, and empowered. Our passionate team of stylists and beauty professionals delivers bespoke hair, skin, and nail treatments in a space designed with you in mind. Whether it’s a subtle refresh or a bold reinvention, we’re here to enhance your natural beauty and uplift your spirit. Come in, unwind, and experience personalized care with a luxurious touch.",
+            "image_url": "https://nails.nelson.themerex.net/wp-content/uploads/2022/06/image-2-nails-copyright-scaled-1.jpg",
+            "background_url": "/images/about-bg.jpg",
+            "cta_text": "Discover Our Signature Services",
+            "cta_link": "/services"
           },
-          {
-            "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "testimonial",
-            "variant": "1",
-            "position": 4,
-            "is_active": true,
-            "content": {
-              "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
+          "items": [
+            {
+              "id": "value-1",
+              "title": "Expert Stylists",
+              "description": "With advanced expertise in beauty trends, hair artistry, skincare, and color science, our team crafts looks that highlight your individuality.",
+              "icon": "💇‍♀️"
+            },
+            {
+              "id": "value-2",
+              "title": "Why Choose Us?",
+              "description": "From luxurious interiors to premium products and personalized care — we provide an experience that's all about you.",
+              "icon": "✨"
+            },
+            {
+              "id": "value-3",
+              "title": "Client Love",
+              "description": "Trusted by over 5,000 glowing clients. Their smiles and testimonials reflect our dedication to excellence.",
+              "icon": "💖"
+            }
+          ]
+        },
+        {
+          "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "testimonial",
+          "variant": "2",
+          "position": 4,
+          "is_active": true,
+          "content": {
+            "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
+            "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+            "title": "Client Testimonials",
+            "subtitle": "What Our Lovely Clients Say",
+            "description": "See what women say about their experience at our salon. We take pride in making every visit special and beautiful.",
+            "image_url": null,
+            "background_url": null,
+            "cta_text": null,
+            "cta_link": null
+          },
+          "items": [
+            {
+              "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
               "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-              "title": "Customer Testimonials",
-              "subtitle": "What Our Clients Say",
-              "description": "Hear from our satisfied customers about their experience working with us.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+              "title": "Priya Sharma",
+              "subtitle": "Fashion Blogger",
+              "description": "I loved the warm welcome and relaxing vibe. The team took great care of me, and my hair looks amazing! This is now my favorite salon.",
+              "icon": null,
+              "image_url": "https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg",
+              "rating": 5,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 0
             },
-            "items": [
-              {
-                "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "John Smith",
-                "subtitle": "CEO, TechStart",
-                "description": "Working with this team has been an incredible experience. Their attention to detail and commitment to excellence is unmatched.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 0
-              },
-              {
-                "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Sarah Johnson",
-                "subtitle": "Marketing Director",
-                "description": "I was amazed at how quickly they understood our brand and delivered exactly what we needed. Highly recommended!",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 1
-              },
-              {
-                "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Michael Brown",
-                "subtitle": "Small Business Owner",
-                "description": "Their work helped transform my business. Professional, responsive, and truly talented team.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 4,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 2
-              }
-            ]
+            {
+              "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
+              "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+              "title": "Aisha Khan",
+              "subtitle": "Makeup Artist",
+              "description": "I’ve tried many salons, but this one is special! The staff listens carefully and the facial and manicure were just perfect.",
+              "icon": null,
+              "image_url": "https://tse4.mm.bing.net/th?id=OIP.Q_vZZcSYOaPMcxnXMQQ99QHaE8&pid=Api&P=0&h=180",
+              "rating": 4,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 1
+            },
+            {
+              "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
+              "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+              "title": "Neha Verma",
+              "subtitle": "Working Professional",
+              "description": "Booking was easy, and every step was smooth. I felt calm and beautiful after my visit. I highly recommend this salon to all women.",
+              "icon": null,
+              "image_url": "https://tse3.mm.bing.net/th?id=OIP.kN8tEO6_wPf1PMEofLrdTgHaGh&pid=Api&P=0&h=180",
+              "rating": 5,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+          "page_id": "contact-page-001",
+          "type": "contact",
+          "variant": "2",
+          "position": 5,
+          "is_active": true,
+          "content": {
+            "id": "c82e3e88-3e44-4890-a248-d75f3aa284e2",
+            "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+            "title": "Get in Touch",
+            "subtitle": "We’d Love to Hear From You",
+            "description": "Whether you’re looking to book an appointment, ask a question, or just say hello, we’re here for you. Reach out to our team and let us pamper you.",
+            "image_url": null,
+            "background_url": null,
+            "cta_text": "Book Appointment",
+            "cta_link": "/book"
           },
-          {
-            "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "footer",
-            "variant": "1",
-            "position": 6,
-            "is_active": true,
-            "content": {
-              "id": "0c6e2e4e-78dd-4e53-b5f6-2c9b793feccc",
-              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+          "items": [
+            {
+              "id": "contact-phone",
+              "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+              "title": "Phone",
+              "description": "+91 98765 43210",
+              "icon": "phone",
+              "position": 0
             },
-            "items": []
-          }
-        ]
-      }
+            {
+              "id": "contact-email",
+              "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+              "title": "Email",
+              "description": "hello@yourfemalesalon.com",
+              "icon": "mail",
+              "position": 1
+            },
+            {
+              "id": "contact-location",
+              "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+              "title": "Location",
+              "description": "123 Beauty Lane, Rose Garden, New Delhi, India",
+              "icon": "map-pin",
+              "position": 2
+            },
+            {
+              "id": "contact-hours",
+              "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+              "title": "Working Hours",
+              "description": "Mon–Sat: 10 AM – 8 PM\nSun: 11 AM – 6 PM",
+              "icon": "clock",
+              "position": 3
+            },
+            {
+              "id": "contact-map",
+              "section_id": "13a7fc3e-afe9-4e8d-812f-6b0a33ad8c52",
+              "title": "Find Us on the Map",
+              "description": "We are easily accessible via Google Maps.",
+              "icon": "map",
+              "image_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8391775219!2d77.06889754778466!3d28.527252739140235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2a964076d69%3A0x3649438b345e31bb!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1683719310671!5m2!1sen!2sin",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+          "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+          "type": "footer",
+          "variant": "3",
+          "position": 6,
+          "is_active": true,
+          "content": {
+            "id": "0c6e2e4e-78dd-4e53-b5f6-2c9b793feccc",
+            "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+            "title": "Stay Beautiful, Stay Confident",
+            "subtitle": "Your Trusted Salon for All Things Glam",
+            "description": "Discover beauty that brings out the best in you. Visit our salon to enjoy expert care, a relaxing atmosphere, and services tailored just for women. We're here to make you feel special — every time.",
+            "image_url": null,
+            "background_url": null,
+            "cta_text": "Book an Appointment",
+            "cta_link": "/book-now"
+          },
+          "items": [
+            {
+              "id": "link-about",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "About Us",
+              "subtitle": null,
+              "description": null,
+              "icon": null,
+              "image_url": null,
+              "rating": null,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 0,
+              "cta_link": "about"
+            },
+            {
+              "id": "link-services",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "Services",
+              "subtitle": null,
+              "description": null,
+              "icon": null,
+              "image_url": null,
+              "rating": null,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 1,
+              "cta_link": "services"
+            },
+            {
+              "id": "link-contact",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "Contact Us",
+              "subtitle": null,
+              "description": null,
+              "icon": null,
+              "image_url": null,
+              "rating": null,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 2,
+              "cta_link": "contact"
+            },
+            {
+              "id": "link-gallery",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "Gallery",
+              "subtitle": null,
+              "description": null,
+              "icon": null,
+              "image_url": null,
+              "rating": null,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 3,
+              "cta_link": "gallery"
+            },
+            {
+              "id": "link-privacy",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "Privacy Policy",
+              "subtitle": null,
+              "description": null,
+              "icon": null,
+              "image_url": null,
+              "rating": null,
+              "price": null,
+              "duration": null,
+              "tag": null,
+              "position": 4,
+              "cta_link": "privacy-policy"
+            }
+          ]
+        }
+      ]
     }
   }
+}
