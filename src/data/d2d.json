@@ -75,7 +75,7 @@
             "title": "",
             "subtitle": "",
             "description": "",
-            "image_url": "https://tse1.mm.bing.net/th?id=OIP.U7DPOFSxptQeZHc8K0rorwHaE8&pid=Api&P=0&h=180",
+            "image_url": "https://instagram.fbho4-1.fna.fbcdn.net/v/t39.30808-6/467154818_18020197808560959_7228355550863747789_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjU2M3g1NjMuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho4-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QF8ZZfhRcyZusWGtwQsQxrqcrRKH74Q2oyQ--PxftJEcW5aQcEKIor5Oqhbw47hlxWYrHgiuQZlTOAJ2-5Smr87&_nc_ohc=xfrQZj9tIJIQ7kNvwG_pte6&_nc_gid=aDCEr8GHHrbeuErF7EzNtQ&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzI4NDE0NDI1MjM3OTY0MjMwNw%3D%3D.3-ccb7-5&oh=00_AfKAdu1pwj7wsfd1TfcQYV_yPqfkM533tC89dAhheb_CWQ&oe=683CF026&_nc_sid=7a9f4b",
             "background_url": "",
             "cta_text": "Book an Appointment",
             "cta_link": "/book"
@@ -94,10 +94,6 @@
               "link": "/services"
             },
             {
-              "label": "Gallery",
-              "link": "/gallery"
-            },
-            {
               "label": "Contact",
               "link": "/contact"
             }
@@ -113,17 +109,16 @@
           "content": {
             "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
             "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-            "title": "Beauty Meets Elegance",
-            "subtitle": "Curated style for every woman",
-            "description": "Discover timeless fashion and effortless beauty, made just for you.",
+            "title": "Discover Your New Look",
+            "subtitle": "Luxury Hair & Beauty Services in the Heart of the City",
+            "description": "At New U Salon, we redefine beauty with expert stylists, premium products, and personalized care. Whether it’s a bold transformation or a quick touch-up, step into a space where style meets sophistication.",
             "image_url": "",
             "background_url": "https://wallpaperaccess.com/full/2090318.jpg",
-            "cta_text": "Book Now",
-            "cta_link": "/book"
+            "cta_text": "Book Your Appointment",
+            "cta_link": "/booking"
           },
           "items": []
         },
-
         {
           "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
           "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
@@ -134,12 +129,12 @@
           "content": {
             "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
             "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-            "title": "Beauty Services",
-            "subtitle": "Elegance. Style. You.",
-            "description": "Pamper yourself with our range of luxurious salon treatments designed exclusively for women.",
+            "title": "Salon Services",
+            "subtitle": "Redefine Your Beauty Routine",
+            "description": "From expert hair styling to radiant skin care, New U Salon offers everything you need to feel refreshed and confident.",
             "image_url": null,
             "background_url": null,
-            "main_video_id": "o3qQvsK1kQQ",
+            "main_video_id": "dWoD4u3y2as",
             "cta_text": "Explore Services",
             "cta_link": "/services"
           },
@@ -148,8 +143,8 @@
               "id": "a1",
               "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
               "title": "Hair Styling",
-              "subtitle": "Trendy Cuts & Styles",
-              "description": "From classic cuts to modern looks, our stylists craft a look that's uniquely you.",
+              "subtitle": "Cuts, Color & More",
+              "description": "Precision cuts, color, and styling tailored to your look.",
               "icon": "scissors",
               "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
               "position": 0
@@ -158,8 +153,8 @@
               "id": "a2",
               "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
               "title": "Facials & Skin Care",
-              "subtitle": "Glow Inside Out",
-              "description": "Relax and rejuvenate with our custom facials and skin treatments for all skin types.",
+              "subtitle": "Glow Naturally",
+              "description": "Revive your skin with our soothing and effective treatments.",
               "icon": "spa",
               "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
               "position": 1
@@ -168,8 +163,8 @@
               "id": "a3",
               "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
               "title": "Manicure & Pedicure",
-              "subtitle": "Nails That Shine",
-              "description": "Give your hands and feet the care they deserve with our expert mani-pedi services.",
+              "subtitle": "Polished Perfection",
+              "description": "Expert nail care to keep your hands and feet flawless.",
               "icon": "hand",
               "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
               "position": 2
@@ -178,8 +173,8 @@
               "id": "a4",
               "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
               "title": "Bridal Makeup",
-              "subtitle": "Your Perfect Day",
-              "description": "Get a flawless bridal look that enhances your natural beauty for the big day.",
+              "subtitle": "Timeless Beauty",
+              "description": "Elegant bridal looks to make your day unforgettable.",
               "icon": "star",
               "image_url": "https://wallpaperaccess.com/full/2090318.jpg",
               "position": 3
@@ -413,21 +408,6 @@
               "tag": null,
               "position": 2,
               "cta_link": "contact"
-            },
-            {
-              "id": "link-gallery",
-              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
-              "title": "Gallery",
-              "subtitle": null,
-              "description": null,
-              "icon": null,
-              "image_url": null,
-              "rating": null,
-              "price": null,
-              "duration": null,
-              "tag": null,
-              "position": 3,
-              "cta_link": "gallery"
             },
             {
               "id": "link-privacy",
